@@ -31,6 +31,7 @@ During the hack lab, you can work individually or in your chosen group on any of
 * Bring-your-own-IoT-scenario and we will try our best to guide how you build it using Azure IoT services
 
 ### SaaS Hack Lab
+* [Check out](https://docs.microsoft.com/en-au/microsoft-iot-central/howto-connect-devkit) this tutorial to see if you are keen to put on a hat as a device developer to connect a MXChip IoT DevKit (DevKit) device to your Microsoft IoT Central application. If the answer is yes, please follow the steps below.
 * [Start](https://www.microsoft.com/en-us/iot-central/) a Microsoft IoT Central 30-day free trial. Create a new app and choose "Sample Devkits" as your application template.
 ![IoT Central](/doc/media/iotcentralcreateapp.JPG?raw=true "IoT Central")
 > Borrow a MXChip IoT Devkit from one of your friendly workshop proctors
