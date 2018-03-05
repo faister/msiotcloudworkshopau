@@ -3,6 +3,10 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 # About 
 Microsoft Cloud Workshops are the closest thing to building your own Azure solution. Experts will guide attendees through a full end-to-end solution hack lab.
 
+> Please note: Workshop content presumes a 200 to 300-level of architectural expertise of infrastructure and solutions design in this domain (even if on another platform). We suggest attendees take the Microsoft Azure Essentials course as a prerequisite if unfamiliar with Azure. 
+
+> Prerequisite: You will use your own Azure subscription or you can create your Azure free account prior to the workshop.
+
 ## Two-Day IoT Cloud Workshop
 The goal of this workshop is to develop a POC-quality IoT solution that includes IoT on the edge, device management, telemetry ingestion, hot/cold/warm path processing and reporting.
 
@@ -18,6 +22,7 @@ If you are already comfortable with this HOL, you can proceed to the hack lab.
 ## Hack Labs
 During the hack lab, you can work individually or in your chosen group on any of the following scenarios: 
 
+### PaaS Hack Labs
 * Extend the Azure IoT Remote Monitoring or [Connected Factory preconfigured solutions](https://github.com/faister/connectedfactory) to connect to your own IoT assets
 * Extend a solution from our Azure IoT solution partners who are co-delivering this workshop with Microsoft
   - [Giesecke+Devrient (G+D) SIV Gateway with Azure IoT Edge](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/sivgateway.md)
@@ -25,6 +30,7 @@ During the hack lab, you can work individually or in your chosen group on any of
 * Connect to process control systems and [publish OPC nodes/PLC tags to IoT Hub](https://github.com/faister/connectedfactory/blob/master/README.md#opc-ua-integration) using OPC UA Publisher on the edge
 * Bring-your-own-IoT-scenario and we will try our best to guide how you build it using Azure IoT services
 
-> Please note: Workshop content presumes a 200 to 300-level of architectural expertise of infrastructure and solutions design in this domain (even if on another platform). We suggest attendees take the Microsoft Azure Essentials course as a prerequisite if unfamiliar with Azure. 
-
-> Prerequisite: You will use your own Azure subscription or you can create your Azure free account prior to the workshop.
+### SaaS Hack Lab
+* [Start](https://www.microsoft.com/en-us/iot-central/) a Microsoft IoT Central 30-day free trial. Create a new app and choose "Sample Devkits" as your application template.
+![IoT Central](/doc/media/iotcentralcreateapp.JPG?raw=true "IoT Central")
+> Borrow a MXChip IoT Devkit from one of your friendly workshop proctors
