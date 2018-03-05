@@ -21,11 +21,11 @@ Our ecosystem partners who include silicon partners and processor partners (i.e.
 * System/Network health
 * Tamper resistance
 
-** About this Hack Lab
+## About this Hack Lab
 
 This tutorial provides step-by-step guidance to configure the SIV Gateway to run Azure IoT Edge and deploy modules based on containers. Full credit goes to the G+D Mobile Security, Cyber Security Division.
 
-** HOWTO - Access to the SIV Gateway WebGUI
+## HOWTO - Access to the SIV Gateway WebGUI
 
 1. Connect a wired connection to the SIV Gateway on LAN2 port which is the same network as your machine. Configure your machine's TCP/IP properties with a static IP, i.e., 1.0.1.2 with the subnet 255.255.255.0.
 2. The SIV Gateway has a default IP on LAN 2: 1.0.1.1
@@ -33,7 +33,7 @@ This tutorial provides step-by-step guidance to configure the SIV Gateway to run
 3. Username: Admin, Password: Secure Visibility
 4. In the WebGUI you can configure the "External LAN" for Internet access. Connect a wired connection fr6m your Internet AP/router onto the LAN1 port on the SIV Gateway.
 
-** HOWTO - Setting up Azure IoT Edge on SIV Gateway
+## HOWTO - Setting up Azure IoT Edge on SIV Gateway
 
 1. You should see this banner in the WebGUI main page. ![SIV Gateway Web GUI version](/doc/media/sivgwwebgui.jpg)
 2. Select External LAN.
@@ -51,5 +51,3 @@ This tutorial provides step-by-step guidance to configure the SIV Gateway to run
 12. When completed, you should see a display log with various info regarding your IoT Edge device, ending with “Runtime started”.
 13. Click OK to return to the Container Manager.
 14. SIV Gateway's Azure IoT Edge now pulls container images as specified in your IoT Edge device configuration in the cloud.
-
-  
