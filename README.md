@@ -11,7 +11,7 @@ We begin with a short, informal Azure IoT briefing designed to explain key conce
 This will be followed by a hands-on lab session where you will learn how to implement an end-to-end solution simulating high velocity data emitted from smart meters and analysed in Azure. You will implement a lambda architecture, filtering a subset of the telemetry data for real-time visualization on the hot path, and storing all of the data in long-term cloud storage for the cold path. 
 
 ### Download Hands-on Lab (HOL)
-Please [download](/doc/hands-on lab step-by step - internet of things - 2018-03-v1.1.pdf) the HOL document.
+Please [download](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/hands-on%20lab%20step-by%20step%20-%20internet%20of%20things%20-%202018-03-v1.1.pdf) the HOL document.
 
 If you are already comfortable with this HOL, you can proceed to the hack lab. 
 
