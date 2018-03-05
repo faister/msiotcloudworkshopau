@@ -20,7 +20,7 @@ During the hack lab, you can work individually or in your chosen group on any of
 
 * Extend the Azure IoT Remote Monitoring or [Connected Factory preconfigured solutions](https://github.com/faister/connectedfactory) to connect to your own IoT assets
 * Extend a solution from our Azure IoT solution partners who are co-delivering this workshop with Microsoft
-  - [Giesecke+Devrient (G+D) SIV Gateway with Azure IoT Edge]((/doc/sivgateway.md)
+  - [Giesecke+Devrient (G+D) SIV Gateway with Azure IoT Edge](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/sivgateway.md)
 * [Build custom Azure IoT Edge modules](https://github.com/faister/iot-workshop) to connect a sensor like TI Sensor Tag and perform  edge processing 
 * Connect to process control systems and [publish OPC nodes/PLC tags to IoT Hub](https://github.com/faister/connectedfactory/blob/master/README.md#opc-ua-integration) using OPC UA Publisher on the edge
 * Bring-your-own-IoT-scenario and we will try our best to guide how you build it using Azure IoT services
