@@ -40,14 +40,10 @@ This tutorial provides step-by-step guidance to configure the SIV Gateway to run
 3. Select DHCP and click Submit.
 4. When completed, you should see a display log with your LAN1 info eg. IP address and gateway
 5. Click OK to return to the main menu.
-6. Select Security.
-7. Under the Firewall section, enter 443 5671 for “Allowed TCP ports for External LAN:” and click Submit
-> This allows connectivity with Azure IoT Hub over HTTPS (port 443) or AMQP (port 5671 for edgeHub communication with IoT Hub).
-8. When completed, you should see a display log showing eg. allowed TCP ports etc.
-9. Click OK to return to the main menu.
-10. Select Container Manager.
-11. Under the Cloud container management section, next to “Device Connected String” enter the <Connection String> for your IoT Edge device and click Setup.
+6. Select Container Manager.
+7. Under the Cloud container management section, next to “Device Connected String” enter the <Connection String> for your IoT Edge device and click Setup.
 > You can retrieve the connection string from the IoT Edge (preview) section of your Azure IoT Hub by clicking on your IoT Edge device.
-12. When completed, you should see a display log with various info regarding your IoT Edge device, ending with “Runtime started”.
-13. Click OK to return to the Container Manager.
-14. SIV Gateway's Azure IoT Edge now pulls container images as specified in your IoT Edge device configuration in the cloud.
+8. [Follow](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-simulate-device-linux#deploy-a-module) this tutorial steps on how to deploy a module on your IoT Edge device.
+9. When completed, you should see a display log with various info regarding your IoT Edge device, ending with “Runtime started”.
+10. Click OK to return to the Container Manager.
+11. SIV Gateway's Azure IoT Edge now pulls container images as specified in your IoT Edge device configuration in the cloud. The Edge Runtime consists of 2 Docker images, edgeAgent and edgeHub.
