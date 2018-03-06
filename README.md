@@ -10,7 +10,7 @@ Microsoft Cloud Workshops are the closest thing to building your own Azure solut
 ## Two-Day IoT Cloud Workshop
 The goal of this workshop is to develop a POC-quality IoT solution that includes IoT on the edge, device management, telemetry ingestion, hot/cold/warm path processing and reporting.
 
-We begin with a short, informal Azure IoT briefing designed to explain key concepts and the latest announcement of the Azure IoT Suite and services.  
+We begin with a short, informal Azure IoT briefing designed to explain key concepts and the latest announcement of the Azure IoT Suite and services. Please [Download](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/Microsoft%20IoT%20Cloud%20Workshop.pdf) the presentation deck.
  
 This will be followed by a hands-on lab session where you will learn how to implement an end-to-end solution simulating high velocity data emitted from smart meters and analysed in Azure. You will implement a lambda architecture, filtering a subset of the telemetry data for real-time visualization on the hot path, and storing all of the data in long-term cloud storage for the cold path. 
 
