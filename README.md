@@ -15,7 +15,7 @@ We begin with a short, informal Azure IoT briefing designed to explain key conce
 This will be followed by a hands-on lab session where you will learn how to implement an end-to-end solution simulating high velocity data emitted from smart meters and analysed in Azure. You will implement a lambda architecture, filtering a subset of the telemetry data for real-time visualization on the hot path, and storing all of the data in long-term cloud storage for the cold path. 
 
 ### Download Hands-on Lab (HOL)
-Please [download](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/hands-on%20lab%20step-by%20step%20-%20internet%20of%20things%20-%202018-03-v1.1.pdf) the HOL document.
+Please [download](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/hands-on%20lab%20step-by%20step%20-%20internet%20of%20things%20-%202018-03-v1.2.pdf) the HOL document.
 
 If you are already comfortable with this HOL, you can proceed to the hack lab. 
 
@@ -28,6 +28,9 @@ During the hack lab, you can work individually or in your chosen group on any of
   - [Giesecke+Devrient (G+D) SIV Gateway with Azure IoT Edge](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/sivgateway.md)
 * [Build custom Azure IoT Edge modules](https://github.com/faister/iot-workshop) to connect a sensor like TI Sensor Tag and perform  edge processing 
 * Connect to process control systems and [publish OPC nodes/PLC tags to IoT Hub](https://github.com/faister/connectedfactory/blob/master/README.md#opc-ua-integration) using OPC UA Publisher on the edge
+* [Learn](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-translator) how to make the IoT DevKit as a language translator by using Azure Cognitive Services. It records your voice and translates it to English text shown on the DevKit screen.
+* [Learn](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-connect-mxchip-iot-devkit#start-the-devkit) how to configure the IoT DevKit in order to make it automatically register to IoT Hub using the Device Provisioning Service (DPS).
+> Borrow a MXChip IoT Devkit from one of your friendly workshop proctors
 * Bring-your-own-IoT-scenario and we will try our best to guide how you build it using Azure IoT services
 
 ### SaaS Hack Lab
