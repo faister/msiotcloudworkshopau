@@ -1,3 +1,4 @@
+
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments
 
 # About 
@@ -26,6 +27,7 @@ During the hack lab, you can work individually or in your chosen group on any of
 * Extend the Azure IoT Remote Monitoring or [Connected Factory preconfigured solutions](https://github.com/faister/connectedfactory) to connect to your own IoT assets
 * Extend a solution from our Azure IoT solution partners who are co-delivering this workshop with Microsoft
   - [Giesecke+Devrient (G+D) SIV Gateway with Azure IoT Edge](https://github.com/faister/msiotcloudworkshopau/blob/master/doc/sivgateway.md)
+  - [BizData's](https://github.com/ongas/azureiotdevicecontrol/blob/master/Go%20Stop%20Raspberry%20Pi%20Hack%20Lab.pdf) lab on IoT device control using voice
 * [Build custom Azure IoT Edge modules](https://github.com/faister/iot-workshop) to connect a sensor like TI Sensor Tag and perform  edge processing 
 * Connect to process control systems and [publish OPC nodes/PLC tags to IoT Hub](https://github.com/faister/connectedfactory/blob/master/README.md#opc-ua-integration) using OPC UA Publisher on the edge
 * [Learn](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-translator) how to make the IoT DevKit as a language translator by using Azure Cognitive Services. It records your voice and translates it to English text shown on the DevKit screen.
